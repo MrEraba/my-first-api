@@ -1,11 +1,29 @@
 {
-  "name": "node-token-jwt",
-  "main": "server.js",
+  "name": "web-token-api",
+  "version": "1.0.0",
+  "description": "una api cool",
+  "main": "/bin/www.js",
+  "bin": {
+    "web-token-api": "www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEraba/my-first-api.git"
+  },
+  "author": "MrEraba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrEraba/my-first-api/issues"
+  },
+  "homepage": "https://github.com/MrEraba/my-first-api#readme",
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "jsonwebtoken": "^5.4.1",
-    "mongoose": "^4.2.9",
+    "mongoose": "^4.3.1",
     "morgan": "^1.6.1"
   }
 }

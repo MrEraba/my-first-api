@@ -1,4 +1,4 @@
 module.exports = {
-	'secret' : 'ilovemymom',
-	'database' : 'mongodb://localhost:27017/jwtDataBase'
+	'secret' : 'qwerty123',
+	'database' : 'mongodb://localhost:27017/api-full'
 };
